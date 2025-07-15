@@ -71,7 +71,7 @@ export default function HeroHome() {
               data-aos-delay={150}
             >
               Invest in Yourself. <br className="max-lg:hidden" />
-              Learn Skills That Elevate Your Life.
+              Learn Skills That Rise Your Life.
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
