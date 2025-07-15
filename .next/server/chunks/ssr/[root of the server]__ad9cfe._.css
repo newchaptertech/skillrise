@@ -1830,6 +1830,12 @@
     content: var(--tw-content);
   }
 
+  .before\:content-\[\'SkillRise\'\]:before {
+    content: var(--tw-content);
+    --tw-content: "SkillRise";
+    content: var(--tw-content);
+  }
+
   .before\:\[background\:conic-gradient\(from_180deg\,transparent\,var\(--color-blue-500\)\)_border-box\]:before {
     content: var(--tw-content);
     background: conic-gradient(from 180deg, transparent, var(--color-blue-500)) border-box;
@@ -1956,6 +1962,12 @@
   .after\:content-\[\'Simple\'\]:after {
     content: var(--tw-content);
     --tw-content: "Simple";
+    content: var(--tw-content);
+  }
+
+  .after\:content-\[\'SkillRise\'\]:after {
+    content: var(--tw-content);
+    --tw-content: "SkillRise";
     content: var(--tw-content);
   }
 

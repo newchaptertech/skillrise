@@ -14,6 +14,11 @@ export default function BusinessCategories() {
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
+          <div className="mb-8 text-center">
+            <span className="text-lg font-semibold text-gray-700">
+              Trusted by 2,000+ learners worldwide
+            </span>
+          </div>
           {/* Tab panels */}
           <div className="relative flex h-[324px] items-center justify-center">
             {/* Small blue dots */}
@@ -182,7 +187,7 @@ export default function BusinessCategories() {
                     src={Logo01}
                     width={32}
                     height={32}
-                    alt="Logo 01"
+                    alt="Learner Avatar"
                   />
                 </div>
               </div>
