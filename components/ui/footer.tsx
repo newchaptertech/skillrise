@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "./logo";
 
 export default function Footer({ border = false }: { border?: boolean }) {
   return (
@@ -11,15 +11,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
         >
           {/* 1st block */}
           <div className="space-y-2 sm:col-span-12 lg:col-span-4">
-            <div>
-              <Image
-                src="/images/logo-01.svg"
-                alt="SkillRise.me Logo"
-                width={32}
-                height={32}
-                priority
-              />
-            </div>
+            <Logo />
             <div className="text-sm text-gray-600">
               &copy; SkillRise.me — Empowering your growth with AI-powered
               education. All rights reserved.
