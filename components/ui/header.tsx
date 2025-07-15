@@ -32,6 +32,21 @@ export default function Header() {
             </li>
           </ul>
           */}
+          <div className="flex flex-1 items-center justify-end">
+            <span
+              style={{
+                fontWeight: 400,
+                fontSize: 20,
+                letterSpacing: "0.02em",
+                color: "#555",
+                fontFamily: "var(--font-sans, Montserrat, sans-serif)",
+                paddingLeft: 4,
+                paddingRight: 4,
+              }}
+            >
+              Learn Skills That Rise Your Life.
+            </span>
+          </div>
         </div>
       </div>
     </header>
