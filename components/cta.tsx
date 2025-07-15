@@ -34,7 +34,12 @@ export default function Cta() {
               Ready to learn skills that pay?
             </h2>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
-              <a className="btn group mb-4 w-full sm:mb-0 sm:w-auto" href="#0">
+              <a
+                className="btn group mb-4 w-full sm:mb-0 sm:w-auto"
+                href="https://go.skillrise.me"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span className="relative inline-flex items-center">
                   Start Learning Now
                   <span
