@@ -1824,12 +1824,6 @@
     filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
   }
 
-  .before\:content-\[\'Simple\'\]:before {
-    content: var(--tw-content);
-    --tw-content: "Simple";
-    content: var(--tw-content);
-  }
-
   .before\:content-\[\'SkillRise\'\]:before {
     content: var(--tw-content);
     --tw-content: "SkillRise";
@@ -1957,12 +1951,6 @@
   .after\:mix-blend-darken:after {
     content: var(--tw-content);
     mix-blend-mode: darken;
-  }
-
-  .after\:content-\[\'Simple\'\]:after {
-    content: var(--tw-content);
-    --tw-content: "Simple";
-    content: var(--tw-content);
   }
 
   .after\:content-\[\'SkillRise\'\]:after {

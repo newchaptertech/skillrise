@@ -384,15 +384,15 @@ function HeroHome() {
                                     "data-aos": "zoom-y-out",
                                     "data-aos-delay": 150,
                                     children: [
-                                        "Learn Profitable Digital Skills — ",
+                                        "Invest in Yourself. ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
                                             className: "max-lg:hidden"
                                         }, void 0, false, {
                                             fileName: "[project]/components/hero-home.tsx",
                                             lineNumber: 73,
-                                            columnNumber: 49
+                                            columnNumber: 35
                                         }, this),
-                                        "Fast."
+                                        "Learn Skills That Elevate Your Life."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/hero-home.tsx",
@@ -406,7 +406,7 @@ function HeroHome() {
                                             className: "mb-8 text-lg text-gray-700",
                                             "data-aos": "zoom-y-out",
                                             "data-aos-delay": 300,
-                                            children: "Actionable AI-powered courses and tools that help you build income, automate tasks, and stay ahead. Beginner-friendly, outcome-focused, and always practical."
+                                            children: "Actionable AI-powered courses and tools to help you master digital skills, boost productivity, and build a healthier, more focused life."
                                         }, void 0, false, {
                                             fileName: "[project]/components/hero-home.tsx",
                                             lineNumber: 77,
@@ -548,7 +548,7 @@ function HeroHome() {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-__turbopack_export_value__("/_next/static/media/logo-01.2bcfa764.svg");}}),
+__turbopack_export_value__("/_next/static/media/logo-01.1f854bab.svg");}}),
 "[project]/public/images/logo-01.svg.mjs { IMAGE => \"[project]/public/images/logo-01.svg [app-rsc] (static)\" } [app-rsc] (structured image object, ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -561,8 +561,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$logo$2d$
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$logo$2d$01$2e$svg__$5b$app$2d$rsc$5d$__$28$static$29$__["default"],
-    width: 32,
-    height: 32,
+    width: 400,
+    height: 400,
     blurDataURL: null,
     blurWidth: 0,
     blurHeight: 0
@@ -1734,7 +1734,7 @@ function FeaturesPlanet() {
                         className: "mx-auto max-w-3xl pb-16 text-center md:pb-20",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl font-bold text-gray-200 md:text-4xl",
-                            children: "Master Real-World Digital Skills — Powered by AI"
+                            children: "Grow Stronger, Smarter, and Healthier — With AI"
                         }, void 0, false, {
                             fileName: "[project]/components/features-planet.tsx",
                             lineNumber: 16,
@@ -1895,7 +1895,7 @@ function FeaturesPlanet() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-[15px] text-gray-400",
-                                        children: "Get results without the fluff. Every lesson is designed for real-world application and quick wins."
+                                        children: "Get results without the fluff. Every lesson is designed for real-life growth."
                                     }, void 0, false, {
                                         fileName: "[project]/components/features-planet.tsx",
                                         lineNumber: 87,
@@ -1948,7 +1948,7 @@ function FeaturesPlanet() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-[15px] text-gray-400",
-                                        children: "No experience? No problem. Our step-by-step mini-courses are made for everyone."
+                                        children: "Our step-by-step mini-courses are made for everyone — no prior experience needed."
                                     }, void 0, false, {
                                         fileName: "[project]/components/features-planet.tsx",
                                         lineNumber: 104,
@@ -1983,7 +1983,7 @@ function FeaturesPlanet() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "AI-Enhanced Content"
+                                                children: "AI-Enhanced Guidance"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/features-planet.tsx",
                                                 lineNumber: 119,
@@ -1997,7 +1997,7 @@ function FeaturesPlanet() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-[15px] text-gray-400",
-                                        children: "Learn the latest tools like ChatGPT, automation, and more — with hands-on, practical guidance."
+                                        children: "Learn with smart tools like ChatGPT, automation, and wellness tracking."
                                     }, void 0, false, {
                                         fileName: "[project]/components/features-planet.tsx",
                                         lineNumber: 121,
@@ -2032,7 +2032,7 @@ function FeaturesPlanet() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "Skill Tracks That Pay"
+                                                children: "Growth-Focused Tracks"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/features-planet.tsx",
                                                 lineNumber: 136,
@@ -2046,7 +2046,7 @@ function FeaturesPlanet() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-[15px] text-gray-400",
-                                        children: "Focus on skills you can use to earn, automate, and grow — starting today."
+                                        children: "From fitness to focus, our content helps you live stronger, smarter, and better."
                                     }, void 0, false, {
                                         fileName: "[project]/components/features-planet.tsx",
                                         lineNumber: 138,
@@ -2171,7 +2171,7 @@ function LargeTestimonial() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-2xl font-bold text-gray-900",
-                            children: "“I launched my first income-generating tool in a weekend.”"
+                            children: "“I built my first custom workout plan using AI in just one day. Life-changing.”"
                         }, void 0, false, {
                             fileName: "[project]/components/large-testimonial.tsx",
                             lineNumber: 32,
@@ -2182,10 +2182,10 @@ function LargeTestimonial() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-gray-700",
-                                    children: "Alex Kim"
+                                    children: "Jordan Lee"
                                 }, void 0, false, {
                                     fileName: "[project]/components/large-testimonial.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 37,
                                     columnNumber: 15
                                 }, this),
                                 " ",
@@ -2194,22 +2194,22 @@ function LargeTestimonial() {
                                     children: "/"
                                 }, void 0, false, {
                                     fileName: "[project]/components/large-testimonial.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 38,
                                     columnNumber: 15
                                 }, this),
                                 " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-blue-500",
-                                    children: "SkillRise Student"
+                                    children: "SkillRise Learner"
                                 }, void 0, false, {
                                     fileName: "[project]/components/large-testimonial.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 39,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/large-testimonial.tsx",
-                            lineNumber: 35,
+                            lineNumber: 36,
                             columnNumber: 13
                         }, this)
                     ]

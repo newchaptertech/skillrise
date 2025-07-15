@@ -30,12 +30,13 @@ export default function LargeTestimonial() {
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “I launched my first income-generating tool in a weekend.”
+              “I built my first custom workout plan using AI in just one day.
+              Life-changing.”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Alex Kim</span>{" "}
+              <span className="text-gray-700">Jordan Lee</span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <span className="text-blue-500">SkillRise Student</span>
+              <span className="text-blue-500">SkillRise Learner</span>
             </div>
           </div>
         </div>

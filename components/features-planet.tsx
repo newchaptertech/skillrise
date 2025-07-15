@@ -14,7 +14,7 @@ export default function FeaturesPlanet() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
-              Master Real-World Digital Skills — Powered by AI
+              Grow Stronger, Smarter, and Healthier — With AI
             </h2>
           </div>
           {/* Planet */}
@@ -86,7 +86,7 @@ export default function FeaturesPlanet() {
               </h3>
               <p className="text-[15px] text-gray-400">
                 Get results without the fluff. Every lesson is designed for
-                real-world application and quick wins.
+                real-life growth.
               </p>
             </article>
             <article>
@@ -102,8 +102,8 @@ export default function FeaturesPlanet() {
                 <span>Beginner-Friendly Courses</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                No experience? No problem. Our step-by-step mini-courses are
-                made for everyone.
+                Our step-by-step mini-courses are made for everyone — no prior
+                experience needed.
               </p>
             </article>
             <article>
@@ -116,11 +116,11 @@ export default function FeaturesPlanet() {
                 >
                   <path d="M2 8a6 6 0 1 1 12 0A6 6 0 0 1 2 8zm6-4a4 4 0 1 0 0 8A4 4 0 0 0 8 4z" />
                 </svg>
-                <span>AI-Enhanced Content</span>
+                <span>AI-Enhanced Guidance</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Learn the latest tools like ChatGPT, automation, and more — with
-                hands-on, practical guidance.
+                Learn with smart tools like ChatGPT, automation, and wellness
+                tracking.
               </p>
             </article>
             <article>
@@ -133,11 +133,11 @@ export default function FeaturesPlanet() {
                 >
                   <polygon points="8,2 14,14 2,14" />
                 </svg>
-                <span>Skill Tracks That Pay</span>
+                <span>Growth-Focused Tracks</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Focus on skills you can use to earn, automate, and grow —
-                starting today.
+                From fitness to focus, our content helps you live stronger,
+                smarter, and better.
               </p>
             </article>
           </div>

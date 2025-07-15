@@ -70,8 +70,8 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Learn Profitable Digital Skills — <br className="max-lg:hidden" />
-              Fast.
+              Invest in Yourself. <br className="max-lg:hidden" />
+              Learn Skills That Elevate Your Life.
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -79,9 +79,9 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Actionable AI-powered courses and tools that help you build
-                income, automate tasks, and stay ahead. Beginner-friendly,
-                outcome-focused, and always practical.
+                Actionable AI-powered courses and tools to help you master
+                digital skills, boost productivity, and build a healthier, more
+                focused life.
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
                 <div
