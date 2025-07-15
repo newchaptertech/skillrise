@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Logo from "./logo";
+import Image from "next/image";
 
 export default function Footer({ border = false }: { border?: boolean }) {
   return (
@@ -12,7 +12,13 @@ export default function Footer({ border = false }: { border?: boolean }) {
           {/* 1st block */}
           <div className="space-y-2 sm:col-span-12 lg:col-span-4">
             <div>
-              <Logo />
+              <Image
+                src="/images/logo-01.svg"
+                alt="SkillRise.me Logo"
+                width={32}
+                height={32}
+                priority
+              />
             </div>
             <div className="text-sm text-gray-600">
               &copy; SkillRise.me — Empowering your growth with AI-powered
@@ -99,9 +105,12 @@ export default function Footer({ border = false }: { border?: boolean }) {
             <ul className="flex gap-1">
               <li>
                 <Link
-                  className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
+                  className="flex items-center justify-center transition"
+                  style={{ color: "#1da1f2" }}
                   href="#0"
                   aria-label="Twitter"
+                  onMouseOver={(e) => (e.currentTarget.style.color = "#0d8ddb")}
+                  onMouseOut={(e) => (e.currentTarget.style.color = "#1da1f2")}
                 >
                   <svg
                     className="h-8 w-8 fill-current"
@@ -114,9 +123,12 @@ export default function Footer({ border = false }: { border?: boolean }) {
               </li>
               <li>
                 <Link
-                  className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
+                  className="flex items-center justify-center transition"
+                  style={{ color: "#12100e" }}
                   href="#0"
                   aria-label="Medium"
+                  onMouseOver={(e) => (e.currentTarget.style.color = "#333")}
+                  onMouseOut={(e) => (e.currentTarget.style.color = "#12100e")}
                 >
                   <svg
                     className="h-8 w-8 fill-current"
@@ -129,9 +141,12 @@ export default function Footer({ border = false }: { border?: boolean }) {
               </li>
               <li>
                 <Link
-                  className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
+                  className="flex items-center justify-center transition"
+                  style={{ color: "#333" }}
                   href="#0"
                   aria-label="Github"
+                  onMouseOver={(e) => (e.currentTarget.style.color = "#000")}
+                  onMouseOut={(e) => (e.currentTarget.style.color = "#333")}
                 >
                   <svg
                     className="h-8 w-8 fill-current"

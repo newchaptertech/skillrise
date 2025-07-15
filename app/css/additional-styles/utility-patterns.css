@@ -1,15 +1,39 @@
 /* Buttons */
 .btn,
 .btn-sm {
-    @apply text-sm font-medium inline-flex items-center justify-center rounded-lg whitespace-nowrap transition-all;
+  @apply text-sm font-medium inline-flex items-center justify-center rounded-lg whitespace-nowrap transition-all;
+  background-color: var(--color-skillrise-500);
+  color: #222;
 }
 
 .btn {
-    @apply px-4 py-[11px] shadow-lg;
+  @apply px-4 py-[11px] shadow-lg;
+  background-color: var(--color-skillrise-500);
+  color: #222;
+  border: 1px solid var(--color-skillrise-700);
+  transition:
+    background 0.2s,
+    border 0.2s;
 }
 
 .btn-sm {
-    @apply px-3 py-[5px] shadow-sm;
+  @apply px-3 py-[5px] shadow-sm;
+  background-color: var(--color-skillrise-500);
+  color: #222;
+  border: 1px solid var(--color-skillrise-700);
+  transition:
+    background 0.2s,
+    border 0.2s;
+}
+
+/* Button hover/focus states */
+.btn:hover,
+.btn:focus,
+.btn-sm:hover,
+.btn-sm:focus {
+  background-color: var(--color-skillrise-600);
+  border-color: var(--color-skillrise-900);
+  color: #222;
 }
 
 /* Forms */
@@ -26,30 +50,30 @@ input[type="search"]::-webkit-search-results-decoration {
 .form-select,
 .form-checkbox,
 .form-radio {
-    @apply border border-gray-200 shadow-xs rounded-lg focus:ring-0 focus:ring-offset-0;
+  @apply border border-gray-200 shadow-xs rounded-lg focus:ring-0 focus:ring-offset-0;
 }
 
 .form-input,
 .form-textarea,
 .form-multiselect,
 .form-select {
-    @apply bg-white text-sm py-2.5 px-4 focus:border-blue-300;
+  @apply bg-white text-sm py-2.5 px-4 focus:border-blue-300;
 }
 
 .form-input,
 .form-textarea {
-    @apply placeholder-gray-400;
+  @apply placeholder-gray-400;
 }
 
 .form-select {
-    @apply pr-10;
+  @apply pr-10;
 }
 
 .form-checkbox,
 .form-radio {
-    @apply text-gray-800 checked:bg-blue-500 checked:border-transparent focus-visible:not-checked:border-blue-300;
+  @apply text-gray-800 checked:bg-blue-500 checked:border-transparent focus-visible:not-checked:border-blue-300;
 }
 
 .form-checkbox {
-    @apply rounded-xs;
+  @apply rounded-xs;
 }

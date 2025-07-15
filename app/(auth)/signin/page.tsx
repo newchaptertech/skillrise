@@ -48,9 +48,7 @@ export default function SignIn() {
             </div>
           </div>
           <div className="mt-6">
-            <button className="btn w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%]">
-              Sign In
-            </button>
+            <button className="btn w-full">Sign In</button>
           </div>
         </form>
         {/* Bottom link */}

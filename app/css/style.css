@@ -1,8 +1,8 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 /* Additional styles */
-@import './additional-styles/utility-patterns.css' layer(components);
-@import './additional-styles/theme.css';
+@import "./additional-styles/utility-patterns.css" layer(components);
+@import "./additional-styles/theme.css";
 
 @plugin "@tailwindcss/forms" {
   strategy: base;
@@ -11,6 +11,14 @@
 @theme {
   --font-inter: Inter, sans-serif;
   --font-mono: Roboto Mono, monospace;
+
+  /* SkillRise brand colors */
+  --color-skillrise-50: #f8ffe7;
+  --color-skillrise-300: #e4ffb3;
+  --color-skillrise-500: #c1ff72;
+  --color-skillrise-600: #a0e65e;
+  --color-skillrise-700: #7fc94a;
+  --color-skillrise-900: #3d8f22;
 
   --text-xs: 0.75rem;
   --text-xs--line-height: 1.5;
@@ -53,7 +61,7 @@
   --animate-breath: breath;
   --animate-float: float;
   --animate-line: line;
-  --animate-infinite-scroll: infinite-scroll;  
+  --animate-infinite-scroll: infinite-scroll;
 
   @keyframes code-1 {
     0% {

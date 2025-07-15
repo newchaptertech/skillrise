@@ -34,13 +34,13 @@ export default function Cta() {
               Ready to learn skills that pay?
             </h2>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
-              <a
-                className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                href="#0"
-              >
+              <a className="btn group mb-4 w-full sm:mb-0 sm:w-auto" href="#0">
                 <span className="relative inline-flex items-center">
                   Start Learning Now
-                  <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
+                  <span
+                    className="ml-1 tracking-normal transition-transform group-hover:translate-x-0.5"
+                    style={{ color: "#222" }}
+                  >
                     -&gt;
                   </span>
                 </span>
