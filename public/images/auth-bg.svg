@@ -20,23 +20,23 @@
   <defs>
     <linearGradient id="b" x1="735" x2="568" y1="1024" y2="1364" gradientUnits="userSpaceOnUse">
       <stop stop-color="#111827"/>
-      <stop offset="1" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#c1ff72"/>
     </linearGradient>
     <linearGradient id="d" x1="667" x2="500" y1="340" y2="680" gradientUnits="userSpaceOnUse">
       <stop stop-color="#111827"/>
-      <stop offset="1" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#c1ff72"/>
     </linearGradient>
     <linearGradient id="f" x1="888" x2="721" y1="650" y2="990" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#3B82F6"/>
-      <stop offset="1" stop-color="#3B82F6"/>
+      <stop stop-color="#c1ff72"/>
+      <stop offset="1" stop-color="#c1ff72"/>
     </linearGradient>
     <linearGradient id="h" x1="952" x2="785" y1="850" y2="1190" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1D4ED8"/>
-      <stop offset="1" stop-color="#1D4ED8"/>
+      <stop stop-color="#c1ff72"/>
+      <stop offset="1" stop-color="#c1ff72"/>
     </linearGradient>
     <linearGradient id="j" x1="867.779" x2="597.12" y1="627.085" y2="802.156" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#3B82F6"/>
-      <stop offset="1" stop-color="#3B82F6"/>
+      <stop stop-color="#c1ff72"/>
+      <stop offset="1" stop-color="#c1ff72"/>
     </linearGradient>
     <linearGradient id="l" x1="677.128" x2="576" y1="1078.11" y2="1284" gradientUnits="userSpaceOnUse">
       <stop stop-color="#fff"/>

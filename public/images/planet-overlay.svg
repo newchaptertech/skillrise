@@ -3,28 +3,28 @@
     <path fill="url(#b)" fill-opacity=".24" fill-rule="evenodd" d="m164 164 461 369-284 58-177-427Z" clip-rule="evenodd"/>
   </g>
   <g filter="url(#c)" opacity=".58">
-    <circle cx="198" cy="318" r="2" fill="#3B82F6" fill-opacity=".64"/>
+    <circle cx="198" cy="318" r="2" fill="#c1ff72" fill-opacity=".64"/>
   </g>
   <g filter="url(#d)" opacity=".58">
-    <circle cx="378" cy="194" r="1" fill="#3B82F6" fill-opacity=".32"/>
+    <circle cx="378" cy="194" r="1" fill="#c1ff72" fill-opacity=".32"/>
   </g>
   <g filter="url(#e)" opacity=".58">
-    <circle cx="233" cy="363" r="1" fill="#3B82F6" fill-opacity=".64"/>
+    <circle cx="233" cy="363" r="1" fill="#c1ff72" fill-opacity=".64"/>
   </g>
   <g filter="url(#f)">
-    <circle cx="416" cy="260" r="3" fill="#3B82F6" fill-opacity=".88"/>
+    <circle cx="416" cy="260" r="3" fill="#c1ff72" fill-opacity=".88"/>
   </g>
   <g filter="url(#g)">
-    <circle cx="258" cy="247" r="3" fill="#3B82F6" fill-opacity=".48"/>
+    <circle cx="258" cy="247" r="3" fill="#c1ff72" fill-opacity=".48"/>
   </g>
   <g filter="url(#h)" opacity=".64">
-    <circle cx="289" cy="132" r="2" fill="#3B82F6" fill-opacity=".64"/>
+    <circle cx="289" cy="132" r="2" fill="#c1ff72" fill-opacity=".64"/>
   </g>
   <g filter="url(#i)">
-    <circle cx="215" cy="193" r="2" fill="#3B82F6" fill-opacity=".32"/>
+    <circle cx="215" cy="193" r="2" fill="#c1ff72" fill-opacity=".32"/>
   </g>
   <g filter="url(#j)">
-    <circle cx="396" cy="321" r="1" fill="#3B82F6" fill-opacity=".64"/>
+    <circle cx="396" cy="321" r="1" fill="#c1ff72" fill-opacity=".64"/>
   </g>
   <g filter="url(#k)">
     <path stroke="url(#l)" stroke-width="2" d="M443.167 335.622s167-60.356 89-105.137"/>
@@ -55,7 +55,7 @@
       <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
       <feOffset dy="4"/>
       <feGaussianBlur stdDeviation="6"/>
-      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0.439216 0 0 0 0 0.956863 0 0 0 0.32 0"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0.439216 0 0 0 0 0.956863 0 0 0 0.32 0"/>
       <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_270_207"/>
       <feBlend in="SourceGraphic" in2="effect1_dropShadow_270_207" result="shape"/>
     </filter>
@@ -129,23 +129,23 @@
       <feGaussianBlur result="effect1_foregroundBlur_270_207" stdDeviation="1"/>
     </filter>
     <linearGradient id="b" x1="608.353" x2="419.671" y1="187.722" y2="602.452" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1D4ED8"/>
-      <stop offset="1" stop-color="#1D4ED8"/>
+      <stop stop-color="#c1ff72"/>
+      <stop offset="1" stop-color="#c1ff72"/>
     </linearGradient>
     <linearGradient id="l" x1="443" x2="521.903" y1="343" y2="219.565" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#3B82F6" stop-opacity=".01"/>
-      <stop offset=".524" stop-color="#3B82F6" stop-opacity=".64"/>
-      <stop offset="1" stop-color="#3B82F6" stop-opacity=".01"/>
+      <stop stop-color="#c1ff72" stop-opacity=".01"/>
+      <stop offset=".524" stop-color="#c1ff72" stop-opacity=".64"/>
+      <stop offset="1" stop-color="#c1ff72" stop-opacity=".01"/>
     </linearGradient>
     <linearGradient id="n" x1="350.102" x2="462.188" y1="136.897" y2="201.399" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#3B82F6" stop-opacity=".01"/>
-      <stop offset=".524" stop-color="#3B82F6" stop-opacity=".64"/>
-      <stop offset="1" stop-color="#3B82F6" stop-opacity=".01"/>
+      <stop stop-color="#c1ff72" stop-opacity=".01"/>
+      <stop offset=".524" stop-color="#c1ff72" stop-opacity=".64"/>
+      <stop offset="1" stop-color="#c1ff72" stop-opacity=".01"/>
     </linearGradient>
     <linearGradient id="p" x1="351" x2="319.5" y1="276.5" y2="189.5" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#3B82F6" stop-opacity=".01"/>
-      <stop offset=".524" stop-color="#3B82F6" stop-opacity=".64"/>
-      <stop offset="1" stop-color="#3B82F6" stop-opacity=".01"/>
+      <stop stop-color="#c1ff72" stop-opacity=".01"/>
+      <stop offset=".524" stop-color="#c1ff72" stop-opacity=".64"/>
+      <stop offset="1" stop-color="#c1ff72" stop-opacity=".01"/>
     </linearGradient>
   </defs>
 </svg>
