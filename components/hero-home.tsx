@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import PageIllustration from "@/components/page-illustration";
 import Avatar01 from "@/public/images/avatar-01.jpg";
@@ -6,8 +8,32 @@ import Avatar03 from "@/public/images/avatar-03.jpg";
 import Avatar04 from "@/public/images/avatar-04.jpg";
 import Avatar05 from "@/public/images/avatar-05.jpg";
 import Avatar06 from "@/public/images/avatar-06.jpg";
+import { useState, useEffect } from "react";
 
 export default function HeroHome() {
+  // Motivational message to type out
+  const message = `Hey there.\n\nYou are not here by accident. You’re here because something inside you knows you’re meant for more — more clarity, more strength, more growth.\n\nYou don’t need to be perfect to begin. You just need to begin.\n\nEvery small step you take today is a signal to your future self: “I’m ready to rise.”\n\nLet’s start.`;
+  const [displayed, setDisplayed] = useState("");
+  const [idx, setIdx] = useState(0);
+  const [showCursor, setShowCursor] = useState(true);
+
+  useEffect(() => {
+    if (idx < message.length) {
+      const timeout = setTimeout(() => {
+        setDisplayed((prev) => prev + message[idx]);
+        setIdx((prev) => prev + 1);
+      }, 65); // slower typing speed
+      return () => clearTimeout(timeout);
+    }
+  }, [idx, message]);
+
+  useEffect(() => {
+    const cursorInterval = setInterval(() => {
+      setShowCursor((prev) => !prev);
+    }, 500);
+    return () => clearInterval(cursorInterval);
+  }, []);
+
   return (
     <section className="relative">
       <PageIllustration />
@@ -128,11 +154,21 @@ export default function HeroHome() {
                   SkillRise.me
                 </span>
               </div>
-              <div className="font-mono text-gray-500 [&_span]:opacity-0">
-                <span className="animate-[code-1_10s_infinite] text-gray-200">
-                  "Learn. Build. Rise."
-                </span>
-                {/* Remove all npm/code references, keep this area clean or add a tagline if needed */}
+              <div className="font-mono text-gray-200 text-lg min-h-[2.5em]">
+                {displayed.split("\n").map((line, i) => (
+                  <span key={i}>
+                    {line}
+                    {i !== displayed.split("\n").length - 1 && <br />}
+                  </span>
+                ))}
+                <span
+                  className={
+                    showCursor
+                      ? "inline-block w-2 bg-gray-200 animate-pulse align-bottom"
+                      : "inline-block w-2 bg-transparent align-bottom"
+                  }
+                  style={{ height: "1em", marginLeft: 2 }}
+                />
               </div>
             </div>
           </div>
