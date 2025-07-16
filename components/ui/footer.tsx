@@ -16,12 +16,25 @@ export default function Footer({ border = false }: { border?: boolean }) {
               &copy; SkillRise.me — Empowering your growth with AI-powered
               education. All rights reserved.
             </div>
+            <div className="text-xs text-gray-500 mt-1">
+              New Chapter Technology LLC, 432 W Pine St, Pinedale, WY 82941, USA
+            </div>
           </div>
 
           {/* 2nd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-sm font-medium">Explore</h3>
             <ul className="space-y-2 text-sm">
+              <li>
+                <a
+                  className="text-gray-600 transition hover:text-gray-900"
+                  href="https://skillrise.me"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Home
+                </a>
+              </li>
               <li>
                 <a
                   className="text-gray-600 transition hover:text-gray-900"
@@ -45,35 +58,55 @@ export default function Footer({ border = false }: { border?: boolean }) {
             </ul>
           </div>
 
-          {/* 3rd block */}
-          {/* Remove company block, not needed for SkillRise.me */}
+          {/* 3rd block: Company */}
+          <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
+            <h3 className="text-sm font-medium">Company</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link
+                  className="text-gray-600 transition hover:text-gray-900"
+                  href="/company/about-us"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-gray-600 transition hover:text-gray-900"
+                  href="/company/contact"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
 
-          {/* 4th block */}
+          {/* 4th block: Resources */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-sm font-medium">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="/resources/terms"
                 >
-                  Community
+                  Terms and Conditions
                 </Link>
               </li>
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="/resources/privacy"
                 >
-                  Terms of service
+                  Privacy Policy
                 </Link>
               </li>
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="/resources/refund-policy"
                 >
-                  Report a vulnerability
+                  Refund Policy
                 </Link>
               </li>
             </ul>
