@@ -12,26 +12,24 @@ export default function Header() {
           </div>
 
           {/* Desktop sign in links */}
-          {/*
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="/signin"
-                className="btn-sm bg-white text-gray-800 shadow-sm hover:bg-gray-50"
+                href="https://go.skillrise.me"
+                className="px-8 py-2 rounded-xl font-semibold text-base bg-white text-gray-900 border border-[#c1ff72] hover:bg-[#f7ffe8] transition flex items-center justify-center"
               >
                 Login
               </Link>
             </li>
             <li>
               <Link
-                href="/signup"
-                className="btn-sm bg-gray-800 text-gray-200 shadow-sm hover:bg-gray-900"
+                href="https://go.skillrise.me"
+                className="px-8 py-2 rounded-xl font-semibold text-base bg-[#c1ff72] text-gray-900 border border-[#c1ff72] shadow-sm hover:bg-[#b3f05f] transition flex items-center justify-center"
               >
                 Register
               </Link>
             </li>
           </ul>
-          */}
         </div>
       </div>
     </header>
