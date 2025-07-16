@@ -14,7 +14,7 @@ export default function FeaturesPlanet() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
-              Grow Stronger, Smarter, and Healthier — With AI
+              Grow Stronger, Smarter, and Healthier With AI
             </h2>
           </div>
           {/* Planet */}
