@@ -50,12 +50,13 @@ Deploy easily to [Vercel](https://vercel.com/) or your preferred Next.js hosting
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 **Summary:**
 
-- You can use, copy, modify, and distribute this software for personal or commercial purposes.
-- You must include the original copyright notice and license in any copies.
+- You may copy and redistribute this software for non-commercial purposes only.
+- You must give appropriate credit and may not modify or create derivative works.
+- Commercial use and modification are not permitted.
 - The software is provided "as is" without warranty—use at your own risk.
 
 ## About
