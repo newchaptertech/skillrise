@@ -140,6 +140,42 @@ export default function FeaturesPlanet() {
                 smarter, and better.
               </p>
             </article>
+            {/* New Feature: Community Support */}
+            <article>
+              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={16}
+                  height={16}
+                  fill="#c1ff72"
+                >
+                  <path d="M8 2a3 3 0 0 1 3 3v1h1a3 3 0 0 1 3 3v1a3 3 0 0 1-3 3h-1v1a3 3 0 0 1-3 3 3 3 0 0 1-3-3v-1H4a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3h1V4a3 3 0 0 1 3-3z" />
+                </svg>
+                <span>Community Support</span>
+              </h3>
+              <p className="text-[15px] text-gray-400">
+                Connect, share, and grow with a supportive community of learners
+                and mentors.
+              </p>
+            </article>
+            {/* New Feature: Anytime, Anywhere Access */}
+            <article>
+              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={16}
+                  height={16}
+                  fill="#c1ff72"
+                >
+                  <path d="M8 1a7 7 0 1 1 0 14A7 7 0 0 1 8 1zm0 2a5 5 0 1 0 0 10A5 5 0 0 0 8 3zm.5 2v3.25l2.25 1.35-.5.87L7.5 8V5h1z" />
+                </svg>
+                <span>Anytime, Anywhere Access</span>
+              </h3>
+              <p className="text-[15px] text-gray-400">
+                Learn at your own pace, on any device, whenever and wherever you
+                want.
+              </p>
+            </article>
           </div>
         </div>
       </div>
