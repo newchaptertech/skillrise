@@ -16,8 +16,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
               &copy; SkillRise.me — Empowering your growth with AI-powered
               education. All rights reserved.
             </div>
-            <div className="text-xs text-gray-500 mt-1">
-              New Chapter Technology LLC, 432 W Pine St, Pinedale, WY 82941, USA
+            <div className="text-xs text-gray-400 mt-1">
+              All products are digital and delivered instantly online. No
+              shipping required.
             </div>
           </div>
 
