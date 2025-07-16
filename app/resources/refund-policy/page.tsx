@@ -19,6 +19,9 @@ export default function RefundPolicy() {
         </a>
         .
       </p>
+      <footer className="mt-12 text-xs text-gray-400 border-t pt-4">
+        © 2025 SkillRise.me – Rise with New Skills. All rights reserved.
+      </footer>
     </main>
   );
 }

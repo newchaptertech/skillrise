@@ -101,7 +101,7 @@ export default function Terms() {
       </p>
 
       <footer className="mt-12 text-xs text-gray-400 border-t pt-4">
-        &copy; {new Date().getFullYear()} SkillRise.me. All rights reserved.
+        © 2025 SkillRise.me – Rise with New Skills. All rights reserved.
       </footer>
     </main>
   );
