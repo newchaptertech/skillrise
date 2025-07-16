@@ -75,10 +75,10 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
+                  fill="#c1ff72"
                 >
                   <circle cx="8" cy="8" r="8" />
                 </svg>
@@ -92,10 +92,10 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
+                  fill="#c1ff72"
                 >
                   <rect x="2" y="2" width="12" height="12" rx="3" />
                 </svg>
@@ -109,10 +109,10 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
+                  fill="#c1ff72"
                 >
                   <path d="M2 8a6 6 0 1 1 12 0A6 6 0 0 1 2 8zm6-4a4 4 0 1 0 0 8A4 4 0 0 0 8 4z" />
                 </svg>
@@ -126,10 +126,10 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
+                  fill="#c1ff72"
                 >
                   <polygon points="8,2 14,14 2,14" />
                 </svg>
