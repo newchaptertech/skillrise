@@ -42,14 +42,6 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   How It Works
                 </a>
               </li>
-              <li>
-                <a
-                  className="text-gray-600 transition hover:text-gray-900"
-                  href="#testimonials"
-                >
-                  Testimonials
-                </a>
-              </li>
             </ul>
           </div>
 
