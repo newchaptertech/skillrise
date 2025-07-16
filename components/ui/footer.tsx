@@ -23,36 +23,32 @@ export default function Footer({ border = false }: { border?: boolean }) {
             <h3 className="text-sm font-medium">Explore</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link
+                <a
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://go.skillrise.me"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Courses
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://go.skillrise.me"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   How It Works
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="#testimonials"
                 >
                   Testimonials
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
-                >
-                  Blog
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

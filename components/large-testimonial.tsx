@@ -5,7 +5,7 @@ import Avatar03 from "@/public/images/avatar-03.jpg";
 
 export default function LargeTestimonial() {
   return (
-    <section>
+    <section id="testimonials">
       <div className="mx-auto max-w-2xl px-4 sm:px-6">
         <div className="py-12 md:py-20 space-y-12">
           {/* Testimonial 1 */}
