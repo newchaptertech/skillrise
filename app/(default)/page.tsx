@@ -1,6 +1,7 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "SkillRise | Rise with New Skills.",
+  description:
+    "Actionable well-designed courses and tools to help you master digital skills, boost productivity, and build a healthier, more focused life.",
 };
 
 import Hero from "@/components/hero-home";
