@@ -24,30 +24,61 @@ export default function BusinessCategories() {
             {/* Small blue dots */}
             <div className="absolute -z-10">
               <svg
-                className="fill-blue-500"
+                className=""
                 xmlns="http://www.w3.org/2000/svg"
                 width={164}
                 height={41}
                 viewBox="0 0 164 41"
                 fill="none"
               >
-                <circle cx={1} cy={8} r={1} fillOpacity="0.24" />
-                <circle cx={1} cy={1} r={1} fillOpacity="0.16" />
-                <circle cx={1} cy={15} r={1} />
-                <circle cx={1} cy={26} r={1} fillOpacity="0.64" />
-                <circle cx={1} cy={33} r={1} fillOpacity="0.24" />
-                <circle cx={8} cy={8} r={1} />
-                <circle cx={8} cy={15} r={1} />
-                <circle cx={8} cy={26} r={1} fillOpacity="0.24" />
-                <circle cx={15} cy={15} r={1} fillOpacity="0.64" />
-                <circle cx={15} cy={26} r={1} fillOpacity="0.16" />
-                <circle cx={8} cy={33} r={1} />
-                <circle cx={1} cy={40} r={1} />
+                <circle cx={1} cy={8} r={1} fill="#c1ff72" fillOpacity="0.24" />
+                <circle cx={1} cy={1} r={1} fill="#c1ff72" fillOpacity="0.16" />
+                <circle cx={1} cy={15} r={1} fill="#c1ff72" />
+                <circle
+                  cx={1}
+                  cy={26}
+                  r={1}
+                  fill="#c1ff72"
+                  fillOpacity="0.64"
+                />
+                <circle
+                  cx={1}
+                  cy={33}
+                  r={1}
+                  fill="#c1ff72"
+                  fillOpacity="0.24"
+                />
+                <circle cx={8} cy={8} r={1} fill="#c1ff72" />
+                <circle cx={8} cy={15} r={1} fill="#c1ff72" />
+                <circle
+                  cx={8}
+                  cy={26}
+                  r={1}
+                  fill="#c1ff72"
+                  fillOpacity="0.24"
+                />
+                <circle
+                  cx={15}
+                  cy={15}
+                  r={1}
+                  fill="#c1ff72"
+                  fillOpacity="0.64"
+                />
+                <circle
+                  cx={15}
+                  cy={26}
+                  r={1}
+                  fill="#c1ff72"
+                  fillOpacity="0.16"
+                />
+                <circle cx={8} cy={33} r={1} fill="#c1ff72" />
+                <circle cx={1} cy={40} r={1} fill="#c1ff72" />
                 <circle
                   cx={1}
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 164 7)"
+                  fill="#c1ff72"
                   fillOpacity="0.24"
                 />
                 <circle
@@ -55,6 +86,7 @@ export default function BusinessCategories() {
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 164 0)"
+                  fill="#c1ff72"
                   fillOpacity="0.16"
                 />
                 <circle
@@ -62,12 +94,14 @@ export default function BusinessCategories() {
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 164 14)"
+                  fill="#c1ff72"
                 />
                 <circle
                   cx={1}
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 164 25)"
+                  fill="#c1ff72"
                   fillOpacity="0.64"
                 />
                 <circle
@@ -75,6 +109,7 @@ export default function BusinessCategories() {
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 164 32)"
+                  fill="#c1ff72"
                   fillOpacity="0.24"
                 />
                 <circle
@@ -82,18 +117,21 @@ export default function BusinessCategories() {
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 157 7)"
+                  fill="#c1ff72"
                 />
                 <circle
                   cx={1}
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 157 14)"
+                  fill="#c1ff72"
                 />
                 <circle
                   cx={1}
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 157 25)"
+                  fill="#c1ff72"
                   fillOpacity="0.24"
                 />
                 <circle
@@ -101,6 +139,7 @@ export default function BusinessCategories() {
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 150 14)"
+                  fill="#c1ff72"
                   fillOpacity="0.64"
                 />
                 <circle
@@ -108,6 +147,7 @@ export default function BusinessCategories() {
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 150 25)"
+                  fill="#c1ff72"
                   fillOpacity="0.16"
                 />
                 <circle
@@ -115,12 +155,14 @@ export default function BusinessCategories() {
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 157 32)"
+                  fill="#c1ff72"
                 />
                 <circle
                   cx={1}
                   cy={1}
                   r={1}
                   transform="matrix(-1 0 0 1 164 39)"
+                  fill="#c1ff72"
                 />
               </svg>
             </div>
@@ -135,7 +177,7 @@ export default function BusinessCategories() {
               >
                 <g opacity="0.6" filter="url(#filter0_f_2044_9)">
                   <path
-                    className="fill-blue-500"
+                    fill="#c1ff72"
                     fillRule="evenodd"
                     clipRule="evenodd"
                     d="M80 112C62.3269 112 48 97.6731 48 80C48 62.3269 62.3269 48 80 48C97.6731 48 171 62.3269 171 80C171 97.6731 97.6731 112 80 112ZM352 112C369.673 112 384 97.6731 384 80C384 62.3269 369.673 48 352 48C334.327 48 261 62.3269 261 80C261 97.6731 334.327 112 352 112Z"
@@ -169,9 +211,9 @@ export default function BusinessCategories() {
             {/* Horizontal lines */}
             <div className="absolute inset-x-0 top-0 -z-10 h-px bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
             <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
-            <div className="absolute inset-x-[200px] top-1/2 -z-10 h-px bg-linear-to-r from-transparent via-blue-500/60 to-transparent mix-blend-multiply"></div>
-            <div className="absolute inset-x-0 top-1/2 -z-10 h-px -translate-y-[82px] bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_both] before:bg-linear-to-r before:via-blue-500"></div>
-            <div className="absolute inset-x-0 top-1/2 -z-10 h-px translate-y-[82px] bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_5s_both] before:bg-linear-to-r before:via-blue-500"></div>
+            <div className="absolute inset-x-[200px] top-1/2 -z-10 h-px bg-linear-to-r from-transparent via-[#c1ff72]/60 to-transparent mix-blend-multiply"></div>
+            <div className="absolute inset-x-0 top-1/2 -z-10 h-px -translate-y-[82px] bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_both] before:bg-linear-to-r before:via-[#c1ff72]"></div>
+            <div className="absolute inset-x-0 top-1/2 -z-10 h-px translate-y-[82px] bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_5s_both] before:bg-linear-to-r before:via-[#c1ff72]"></div>
             {/* Diagonal lines */}
             <div className="absolute inset-x-[300px] top-1/2 -z-10 h-px rotate-[20deg] bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
             <div className="absolute inset-x-[300px] top-1/2 -z-10 h-px -rotate-[20deg] bg-linear-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
