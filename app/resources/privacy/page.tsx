@@ -12,12 +12,9 @@ export default function Privacy() {
         We do not share your personal information with third parties except as
         necessary to provide our services or as required by law.
       </p>
-      <p>
+      <p className="mb-8 text-gray-700">
         For privacy-related questions, contact us at{" "}
-        <a
-          href="mailto:support@skillrise.me"
-          className="text-blue-600 underline"
-        >
+        <a href="mailto:support@skillrise.me" className="text-black underline">
           support@skillrise.me
         </a>
         .

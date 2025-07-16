@@ -7,7 +7,7 @@ export default function Contact() {
       <p className="mb-2">
         For customer service or support, please email us at:
       </p>
-      <a href="mailto:support@skillrise.me" className="text-blue-600 underline">
+      <a href="mailto:support@skillrise.me" className="text-black underline">
         support@skillrise.me
       </a>
     </main>

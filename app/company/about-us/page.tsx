@@ -23,7 +23,7 @@ export default function AboutUs() {
         Learn more at{" "}
         <a
           href="https://newchapter.tech/"
-          className="text-blue-600 underline"
+          className="text-black underline"
           target="_blank"
           rel="noopener noreferrer"
         >
