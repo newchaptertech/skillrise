@@ -13,8 +13,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
           <div className="space-y-2 sm:col-span-12 lg:col-span-4">
             <Logo />
             <div className="text-sm text-gray-600">
-              &copy; SkillRise.me — Empowering your growth with AI-powered
-              education. All rights reserved.
+              &copy; SkillRise.me — Rise with New Skills. All rights reserved.
             </div>
             <div className="text-xs text-gray-400 mt-1">
               All products are digital and delivered instantly online. No
