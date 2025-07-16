@@ -20,10 +20,10 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/images/logo.png", // Update with your preferred preview image
+        url: "/images/preview.png",
         width: 1200,
         height: 630,
-        alt: "Skillrise Logo",
+        alt: "Skillrise Preview Image",
       },
     ],
   },
@@ -32,7 +32,7 @@ export const metadata = {
     title: "SkillRise | Rise with New Skills.",
     description:
       "Actionable well-designed courses and tools to help you master digital skills, boost productivity, and build a healthier, more focused life.",
-    images: ["/images/logo.png"], // Update with your preferred preview image
+    images: ["/images/preview.png"],
   },
 };
 
