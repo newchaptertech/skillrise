@@ -25,3 +25,7 @@ dist-ssr
 
 .next
 .out
+
+/lib/generated/prisma
+
+.env
