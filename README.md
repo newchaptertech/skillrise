@@ -1,3 +1,60 @@
+## SkillRise Full-Stack Course Platform
+
+Tech stack: Next.js App Router, Prisma + MongoDB Atlas, NextAuth, Tailwind, shadcn/ui, React Hook Form + Zod, pnpm. Includes Playwright smoke tests.
+
+### Getting Started
+
+1. Copy `.env.example` to `.env` and fill values.
+
+2. Install deps:
+
+```bash
+pnpm install
+```
+
+3. Push schema and seed data:
+
+```bash
+pnpm prisma:push
+pnpm prisma:seed
+```
+
+4. Run dev server:
+
+```bash
+pnpm dev
+```
+
+### Environment Variables
+
+- `DATABASE_URL` MongoDB Atlas connection string
+- `NEXTAUTH_URL` e.g. http://localhost:3000
+- `NEXTAUTH_SECRET` random string
+- `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`
+
+### Seed Accounts
+
+- Admin: admin@skillrise.me / Admin123!
+- Coach: izzet@skillrise.me / Password123!
+- Learner: learner@skillrise.me / Password123!
+
+### App Structure
+
+- `/` Landing with CTA. If authed → Go to Courses
+- `/auth/signin`, `/auth/signup` NextAuth credentials + Google
+- `/courses` Published courses list with search/filter
+- `/courses/[slug]` Course detail with Enroll
+- `/dashboard` My Courses (enrollments)
+- `/admin/courses` CRUD (ADMIN only)
+
+### Scripts
+
+```bash
+pnpm prisma:push   # prisma db push
+pnpm prisma:seed   # prisma db seed (tsx)
+pnpm test:e2e      # Playwright tests
+```
+
 # <img src="public/images/logo2.png" alt="SkillRise.me Logo" width="64" height="64" style="vertical-align:middle; margin-right:8px;"/> SkillRise.me
 
 SkillRise.me is a modern digital learning platform offering AI-powered courses, guides, and tools focused on health, productivity, and personal growth. All products are digital-only and delivered instantly online—no shipping required.

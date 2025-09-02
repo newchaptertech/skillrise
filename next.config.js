@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  // Removed `output: "export"` so middleware and dynamic server features work in dev.
   images: {
     unoptimized: true,
   },
