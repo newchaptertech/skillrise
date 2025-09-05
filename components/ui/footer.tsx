@@ -38,7 +38,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <a
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="https://go.skillrise.me"
+                  href="https://app.skillrise.me"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -48,7 +48,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <a
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="https://go.skillrise.me"
+                  href="https://app.skillrise.me"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -15,7 +15,7 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="https://go.skillrise.me"
+                href="https://app.skillrise.me"
                 className="px-8 py-2 rounded-xl font-semibold text-base bg-white text-gray-900 border border-[#c1ff72] hover:bg-[#f7ffe8] transition flex items-center justify-center"
               >
                 Login
@@ -23,7 +23,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="https://go.skillrise.me"
+                href="https://app.skillrise.me"
                 className="px-8 py-2 rounded-xl font-semibold text-base bg-[#c1ff72] text-gray-900 border border-[#c1ff72] shadow-sm hover:bg-[#b3f05f] transition flex items-center justify-center"
               >
                 Register
