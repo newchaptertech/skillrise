@@ -28,13 +28,13 @@ export default function Header() {
                 About
               </Link>
               <Link
-                href="#features"
+                href="/#features"
                 className="text-sm font-medium text-gray-700 hover:text-gray-900"
               >
                 Features
               </Link>
               <Link
-                href="#testimonials"
+                href="/#testimonials"
                 className="text-sm font-medium text-gray-700 hover:text-gray-900"
               >
                 Testimonials
