@@ -11,22 +11,49 @@ export default function Header() {
             <Logo />
           </div>
 
-          {/* Desktop sign in links */}
+          {/* Desktop menu links + app button */}
           <ul className="flex flex-1 items-center justify-end gap-3">
-            <li>
+            {/* Footer-based links - visible on md and up */}
+            <li className="hidden md:flex items-center gap-4">
               <Link
-                href="https://app.skillrise.me"
-                className="px-8 py-2 rounded-xl font-semibold text-base bg-white text-gray-900 border border-[#c1ff72] hover:bg-[#f7ffe8] transition flex items-center justify-center"
+                href="/"
+                className="text-sm font-medium text-gray-700 hover:text-gray-900"
               >
-                Login
+                Home
               </Link>
+              <Link
+                href="/company/about-us"
+                className="text-sm font-medium text-gray-700 hover:text-gray-900"
+              >
+                About
+              </Link>
+              <Link
+                href="#features"
+                className="text-sm font-medium text-gray-700 hover:text-gray-900"
+              >
+                Features
+              </Link>
+              <Link
+                href="#testimonials"
+                className="text-sm font-medium text-gray-700 hover:text-gray-900"
+              >
+                Testimonials
+              </Link>
+              {/* <Link
+                href="https://app.skillrise.me"
+                className="text-sm font-medium text-gray-700 hover:text-gray-900"
+              >
+                How It Works
+              </Link> */}
             </li>
+
+            {/* App button */}
             <li>
               <Link
                 href="https://app.skillrise.me"
                 className="px-8 py-2 rounded-xl font-semibold text-base bg-[#c1ff72] text-gray-900 border border-[#c1ff72] shadow-sm hover:bg-[#b3f05f] transition flex items-center justify-center"
               >
-                Register
+                Courses
               </Link>
             </li>
           </ul>
