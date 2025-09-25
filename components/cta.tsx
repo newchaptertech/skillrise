@@ -36,7 +36,7 @@ export default function Cta() {
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <a
                 className="mb-4 w-full sm:mb-0 sm:w-auto px-8 py-3 rounded-xl font-semibold text-lg bg-[#c1ff72] text-gray-900 border border-[#c1ff72] shadow-sm hover:bg-[#b3f05f] transition flex items-center justify-center"
-                href="https://app.skillrise.me"
+                href="https://course.skillrise.me"
                 target="_blank"
                 rel="noopener noreferrer"
               >

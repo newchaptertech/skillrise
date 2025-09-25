@@ -40,7 +40,7 @@ export default function Header() {
                 Testimonials
               </Link>
               {/* <Link
-                href="https://app.skillrise.me"
+                href="https://course.skillrise.me"
                 className="text-sm font-medium text-gray-700 hover:text-gray-900"
               >
                 How It Works
@@ -50,7 +50,7 @@ export default function Header() {
             {/* App button */}
             <li>
               <Link
-                href="https://app.skillrise.me"
+                href="https://course.skillrise.me"
                 className="px-8 py-2 rounded-xl font-semibold text-base bg-[#c1ff72] text-gray-900 border border-[#c1ff72] shadow-sm hover:bg-[#b3f05f] transition flex items-center justify-center"
               >
                 Courses
